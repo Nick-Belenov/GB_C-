@@ -53,7 +53,23 @@ int numberB = 5;
 int result = numberA + numberB;
 //Console.WriteLine(numberA + numberB);
 Console.WriteLine(result); 
-*/
+
+/* Вещественный(Дробный) тип данных double
+ Написать программу на языке C#,
+для Windows и Mac OS,
+[в которую пользователь вводит два целых/вещественных числа]
+[в которой записаны два целых/вещественных числа]
+[два целых/вещественных числа генерируются случайным образом]
+и получает результат от деления, целый или вещественный:
+● Начало
+● Определить первое число
+● Определить второе число
+● Вывести деление введенных чисел на экран
+● Конец
+int это 32 разрядное число со знаком(-/+)
+double это 64 разрядное число со знаком(-/+)
+string от 4 байт до 2 гб
+bool (true/false) 1 байт
 
 //int numberA = 10;
 double numberA = 12;
@@ -61,4 +77,12 @@ double numberA = 12;
 double numberB = 5;
 //int result = numberA / numberB;
 double result = numberA / numberB;
+Console.WriteLine(result);
+*/
+
+int numberA = new Random().Next(1, 10); //1 2 3 4 ... 9
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1, 10);
+Console.WriteLine(numberB);
+int result = numberA + numberB;
 Console.WriteLine(result);
