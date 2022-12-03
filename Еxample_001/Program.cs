@@ -26,8 +26,39 @@ else
 */
 
 
-
+/*
 Console.Write("Enter your name: ");
 string username = Console.ReadLine();
 Console.Write("Hello, ");
 Console.Write(username);
+*/
+
+//Программа для сложения двух чисел (На языке C#)
+/*
+Написать программу на языке C#,
+для Windows и Mac OS,
+[в которую пользователь вводит два целых числа]
+[в которой записаны два целых числа]
+[два целых числа генерируются случайным образом]
+и получает сумму:
+Синтаксис: начало
+● Начало
+● Определить первое число
+● Определить второе число
+● Вывести сумму введенных чисел на экран
+● Конец
+
+int numberA = 3;
+int numberB = 5;
+int result = numberA + numberB;
+//Console.WriteLine(numberA + numberB);
+Console.WriteLine(result); 
+*/
+
+//int numberA = 10;
+double numberA = 12;
+//int numberB = 5;
+double numberB = 5;
+//int result = numberA / numberB;
+double result = numberA / numberB;
+Console.WriteLine(result);
