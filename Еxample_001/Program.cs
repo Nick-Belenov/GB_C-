@@ -79,6 +79,7 @@ double numberB = 5;
 double result = numberA / numberB;
 Console.WriteLine(result);
 
+// Нзначение целочисленной переменной рандомное значение
 
 int numberA = new Random().Next(1, 10); //1 2 3 4 ... 9
 Console.WriteLine(numberA);
@@ -86,4 +87,21 @@ int numberB = new Random().Next(1, 10);
 Console.WriteLine(numberB);
 int result = numberA + numberB;
 Console.WriteLine(result);
+
+
+Console.Write("Enter your name: ");
+string username = Console.ReadLine();
+
+//if (username == "Даша")
+if (username.ToLower() == "даша")  // Опускает значение в нижний регистр
+{
+    Console.WriteLine("Ура, Это же Даша");
+}
+else
+{
+    Console.Write("Привет, ");
+    Console.WriteLine(username);
+}
 */
+
+
