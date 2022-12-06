@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\WorkDell\\.nuget\\packages\\": {}
+    "C:\\Users\\COMP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WorkDell\\Documents\\C# Work\\Еxample_001\\Еxample_001.csproj",
+      "projectUniqueName": "C:\\Users\\COMP\\Documents\\C#\\Project\\Examples\\Еxample_001\\Еxample_001.csproj",
       "projectName": "Еxample_001",
-      "projectPath": "C:\\Users\\WorkDell\\Documents\\C# Work\\Еxample_001\\Еxample_001.csproj",
-      "packagesPath": "C:\\Users\\WorkDell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WorkDell\\Documents\\C# Work\\Еxample_001\\obj\\",
+      "projectPath": "C:\\Users\\COMP\\Documents\\C#\\Project\\Examples\\Еxample_001\\Еxample_001.csproj",
+      "packagesPath": "C:\\Users\\COMP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\COMP\\Documents\\C#\\Project\\Examples\\Еxample_001\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\WorkDell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\COMP\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
