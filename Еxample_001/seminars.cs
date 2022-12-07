@@ -62,43 +62,80 @@ else
 // Задача №3. Напишите программу,
 //которая будет выдавать название дня недели по заданному номеру.
 
-Console.WriteLine("Введите номер дня недели: ");
-int number = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Введите номер дня недели: ");
+//int number = Convert.ToInt32(Console.ReadLine());
 
-if(number == 1)
+int dayNumber = 0;
+
+bool isCorrectInput = false;
+while(!isCorrectInput)
+{
+    Console.Write("Введите число: ");
+    string input = Console.ReadLine();
+    dayNumber = Convert.ToInt32(input);
+    if(dayNumber < 1 || dayNumber > 7)
+    {
+        Console.WriteLine("Числ неверное, введите ещё раз: ");
+    }
+    else
+    {
+        isCorrectInput = true;
+    }
+}
+
+if(dayNumber == 1)
 {
     Console.WriteLine("Понедельник");
 }
-else if(number == 2)
+else if(dayNumber == 2)
 {
     Console.WriteLine("Вторник");
 }
-else if(number == 3)
+else if(dayNumber == 3)
 {
     Console.WriteLine("Среда");
 }
-else if(number == 4)
+else if(dayNumber == 4)
 {
     Console.WriteLine("Четверг");
 }
-else if(number == 5)
+else if(dayNumber == 5)
 {
     Console.WriteLine("Пятница");
 }
-else if(number == 6)
+else if(dayNumber == 6)
 {
     Console.WriteLine("Суббота");
 }
-else if(number == 7)
+else if(dayNumber == 7)
 {
     Console.WriteLine("Воскресенье");
 }
-else if(number < 1)
+//else if(number < 1)
+//{
+//    Console.WriteLine("Такого дня недели нет");
+//}
+//else if (number > 7)
+//{
+//    Console.WriteLine("Такого дня недели нет");
+//}
+
+
+// Задача №5. Напишите программу, которая на вход принимает одно число (N), 
+//а на выходе показывает все целые числа в промежутке от -N до N.
+
+
+
+//Задача №7. Напишите программу, 
+//которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
+
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int numberA = -number;
+
+while (numberA <= number)
 {
-    Console.WriteLine("Такого дня недели нет");
-}
-else if (number > 7)
-{
-    Console.WriteLine("Такого дня недели нет");
+    Console.Write(numberA + " ");
+    numberA++;
 }
 */
